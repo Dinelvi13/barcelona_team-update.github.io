@@ -1,0 +1,213 @@
+*{margin: 0%;padding: 0%;}
+
+body{background-color: rgb(194, 193, 248);
+        background-image: url(https://blogging-techies.com/wp-content/uploads/2020/06/1593467676_60-impresionantes-imagenes-de-fondo-de-pantalla-de-futbol-en.jpghttps://cdn.pixabay.com/photo/2016/01/24/18/17/wall-1159348_960_720.jpghttps://cdn.pixabay.com/photo/2015/07/25/06/26/crystal-859317_960_720.jpghttps://cdn.pixabay.com/photo/2019/12/09/12/14/barcelona-4683399__340.jpghttps://cdn.pixabay.com/photo/2020/08/02/09/25/jersey-5457156_960_720.jpghttps://media.istockphoto.com/vectors/seamless-soccer-ball-pattern-background-vector-id948980028);}
+
+@font-face {
+    font-family: sedwig;
+    src: url(./aset/font/sedwig.ttf);
+}
+@font-face {
+    font-family: ewe;
+    src: url(./aset/font/Ewert-Regular.ttf);
+}
+@font-face {
+    font-family: permanen;
+    src: url(./aset/font/permanen.ttf);
+}
+@font-face {
+    font-family: varia;
+    src: url(./aset/font/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: satis;
+    src: url(./aset/font/Satisfy-Regular.ttf);
+}
+@font-face {
+    font-family: suru;
+    src: url(./aset/font/Shizuru-Regular.ttf);
+}
+@font-face {
+    font-family: montez;
+    src: url(./aset/font/Montez-Regular.ttf);
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(./aset/font/RubikBeastly-Regular.ttf);
+}
+@font-face {
+    font-family: molah;
+    src: url(./aset/font/MooLahLah-Regular.ttf);
+}
+
+
+@media screen and (max-width: 400px) {
+    .navigasi{background-color: rgb(83, 120, 243);} 
+}
+
+
+.navigasi{
+            flex: 1;
+            display: flex;
+            width: 100%;
+            background-color: rgb(83, 120, 243);
+            position: fixed;
+            padding: 10PX 10PX;
+            z-index: 5;
+
+}
+
+.brand{
+            font-family: molah;
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+        }
+
+.bagian2{    
+            display: flex;
+            flex-direction: row;   
+            align-items: center;
+            gap: 100px;
+            padding-right: 10px;   
+            margin-left: 700px;
+            float:right;
+            }
+
+.daftar{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 100px;
+            padding-right: 100px;
+            list-style-type: none;
+       }
+
+
+.tulisan{
+            font-family: sedwig;}
+
+a{              
+            text-decoration: none;
+            color: black;
+            font-size: 20px;}
+
+a:hover{   
+             color: red;
+}
+
+
+.contentbarcelona {
+            justify-items: center;
+            align-content: center;
+}
+
+
+.judul{
+            text-align: center;
+            margin: auto;
+            font-family: permanen;
+            padding-top: 100px;
+            font-size: 70px;
+            color: rgb(10, 37, 190); 
+            transition: 1s;
+}
+.judul:hover{
+           font-size: 80px;
+           margin-bottom: 10px;
+           opacity: 0;
+        }
+
+
+.imgbarcelona {
+        width: 700px;
+          display: block;
+          margin: auto;
+          border-radius: 20px;
+          padding-top: 50px;
+    }
+
+
+.conten2{
+            margin:auto 300px ;padding-top: 70PX;
+        }
+
+.tabel{padding-top: 50px; width: 750px;}
+
+.tabel3{margin-top: 30px;}
+
+h2{         font-family: ewe;
+            transition: 1s;
+        }
+
+h2:hover{   
+            margin-left: 50px;
+        }
+
+
+
+p{          
+            text-indent: 50px;
+            font-family: varia;
+        }
+
+th,td{  
+            border: 2px solid black;
+            padding: 10px 10px;
+            text-align: center;
+            font-family: varia;
+        }
+
+
+
+
+.kolom1{ 
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: flex-start;
+            padding-right: 100px;
+            padding-top: 15px;
+            transition: 1s ;
+        }
+
+.kolom1:hover{
+                font-size:;
+}
+
+
+
+.image2{    
+             width: 45px;
+             height: 30px;
+             position: absolute;
+             transition: 1s ease-out;}
+
+
+.baris:hover .image2
+{
+                margin-left: 240px;
+               
+}
+
+
+
+.i{
+            transition:1s ; color: rgb(194, 193, 248);;
+}
+
+
+.baris:hover .i{
+            opacity: 1; color: blue;
+}
+
+
+ 
+
+
+
+
+
+    
+    
